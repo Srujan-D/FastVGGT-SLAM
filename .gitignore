@@ -1,0 +1,30 @@
+/fastvggt_results
+__pycache__/
+merging/__pycache__/
+vggt_slam/__pycache__/
+*.pyc
+salad/
+gtsam/
+# Ignore setup files from VSCode and Pycharm
+.vscode/
+.idea/
+
+*/*.npz
+debug*/
+.hydra/
+output/
+ckpt/
+dependency/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# ignore common logging files
+*.text
+*.pcd
+*.json
